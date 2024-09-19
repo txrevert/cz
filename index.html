@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en" class="light">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="A simple countdown for the release of CZ from prison"
+        />
+        <meta
+            name="keywords"
+            content="countdown, Changpeng Zhao, CZ, Binance, cryptocurrency, prison release"
+        />
+        <title>CZ Release Countdown</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                darkMode: "class",
+                theme: {
+                    extend: {
+                        colors: {
+                            primary: "#F3BA2F",
+                            secondary: "#F0B90B",
+                            accent: "#FF69B4",
+                            success: "#4CAF50",
+                            "dark-bg": "#121212",
+                            "dark-surface": "#1E1E1E",
+                            "dark-text": "#E0E0E0",
+                        },
+                        boxShadow: {
+                            neo: "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+                        },
+                        fontSize: {
+                            xs: "0.75rem",
+                            sm: "0.875rem",
+                            base: "1rem",
+                            lg: "1.125rem",
+                            xl: "1.25rem",
+                            "2xl": "1.5rem",
+                            "3xl": "1.875rem",
+                            "4xl": "2.25rem",
+                        },
+                    },
+                },
+            };
+        </script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="icon" href="./assets/cz.jpeg" type="image/jpeg" />
+        <style>
+            body {
+                font-family: "Inter", "Helvetica", "Arial", sans-serif;
+                font-size: 14px;
+                line-height: 1.5;
+            }
+            .neo-border {
+                border: 1px solid rgba(0, 0, 0, 0.1);
+            }
+            .dark .neo-border {
+                border-color: rgba(255, 255, 255, 0.1);
+            }
+            .neo-input {
+                background-color: white;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                transition: all 0.3s ease;
+            }
+            .neo-input:focus {
+                outline: none;
+                box-shadow: 0 0 0 2px rgba(243, 186, 47, 0.5);
+            }
+            .dark .neo-input {
+                background-color: #1e1e1e;
+                border-color: rgba(255, 255, 255, 0.1);
+                color: #e0e0e0;
+            }
+            .dark .neo-input:focus {
+                box-shadow: 0 0 0 2px rgba(240, 185, 11, 0.5);
+            }
+            .dark .text-dark {
+                color: #121212;
+            }
+        </style>
+    </head>
+    <body
+        class="bg-white dark:bg-dark-bg text-black dark:text-dark-text transition-colors duration-300 flex flex-col min-h-screen text-sm"
+    >
+        <a
+            href="https://www.binance.com/en/blog/leadership/from-richard-teng-binance-ceo-tigrans-deteriorating-condition-after-6-months-of-unjust-detention-426448993678618773?hl=en"
+            target="_blank"
+            class="bg-red-500 hover:bg-green-500 transition-colors duration-300 text-white py-2 px-4 text-center"
+        >
+            <p class="text-sm font-medium">
+                Learn about TIGRAN GAMBARYAN who is being held unlawfully in
+                Nigeria.
+            </p>
+        </a>
+
+        <header
+            class="sticky top-0 z-40 bg-primary dark:bg-dark-surface neo-border shadow-neo"
+        >
+            <nav
+                class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center"
+            >
+                <div class="flex items-center">
+                    <span class="text-lg font-medium text-white"
+                        >CZ Release Countdown</span
+                    >
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a
+                        href="https://github.com/txrevert/cz"
+                        target="_blank"
+                        class="text-white hover:text-accent"
+                    >
+                        <svg
+                            class="h-6 w-6"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                            />
+                        </svg>
+                    </a>
+                    <a
+                        href="https://x.com/txrevrt"
+                        target="_blank"
+                        class="text-white hover:text-accent"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-6 w-6"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                            />
+                        </svg>
+                    </a>
+                    <button
+                        id="theme-toggle"
+                        class="text-white hover:text-accent"
+                    >
+                        <svg
+                            class="h-6 w-6"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+                            />
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <!-- Countdown Section -->
+            <section class="text-center py-4 sm:py-6">
+                <h1
+                    class="text-xl sm:text-2xl font-semibold text-black dark:text-white mb-2"
+                >
+                    Countdown to CZ's Release
+                </h1>
+                <p class="text-sm sm:text-base text-black dark:text-white">
+                    Time remaining until Changpeng Zhao (CZ) is released
+                    from prison.
+                </p>
+                <div
+                    id="demo"
+                    class="text-2xl sm:text-3xl font-bold text-primary dark:text-secondary mt-4"
+                ></div>
+                <div class="mt-4">
+                    <h3
+                        class="text-sm font-medium text-black dark:text-dark-text mb-2"
+                    >
+                        Time Served:
+                    </h3>
+                    <div class="bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                        <div
+                            id="time-served"
+                            class="bg-primary dark:bg-secondary text-dark h-2 rounded-full"
+                            style="width: 0%"
+                        ></div>
+                    </div>
+                    <div class="flex justify-between mt-1">
+                        <span
+                            id="progress-percentage"
+                            class="text-xs text-gray-500 dark:text-gray-400"
+                        ></span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Image Section -->
+            <section class="flex justify-center">
+                <img
+                    src="./assets/cz.jpeg"
+                    alt="CZ"
+                    class="mt-8 max-w-full w-72 h-auto rounded-lg shadow-md"
+                />
+            </section>
+        </main>
+
+        <footer
+            class="mt-auto bg-primary dark:bg-dark-surface text-white dark:text-dark-text py-3 neo-border text-xs"
+        >
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <p class="mb-1">
+                    This website is not affiliated with Binance or Changpeng
+                    Zhao.
+                </p>
+                <p>
+                    Release Date for CHANGPENG ZHAO (Register Number: 88087-510)
+                    is: 09/29/2024 according to data from
+                    <a
+                        href="https://www.bop.gov/inmateloc/"
+                        target="_blank"
+                        class="underline hover:no-underline"
+                        >Federal Bureau of Prisons Inmate Locator</a
+                    >
+                </p>
+            </div>
+        </footer>
+
+        <script>
+            const countDownDate = new Date(
+                "Sept 29, 2024 00:00:00 PDT",
+            ).getTime();
+            const startDate = new Date("June 3, 2024 00:00:00 PDT").getTime();
+            const timeServedBar = document.getElementById("time-served");
+            const progressPercentage = document.getElementById(
+                "progress-percentage",
+            );
+            const totalDays = Math.floor(
+                (countDownDate - startDate) / (1000 * 60 * 60 * 24),
+            );
+
+            function updateCountdown() {
+                const now = new Date();
+                const losAngelesTime = new Date(
+                    now.toLocaleString("en-US", {
+                        timeZone: "America/Los_Angeles",
+                    }),
+                );
+                const distance = countDownDate - losAngelesTime.getTime();
+                const timePassed = losAngelesTime.getTime() - startDate;
+
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor(
+                    (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+                );
+                const minutes = Math.floor(
+                    (distance % (1000 * 60 * 60)) / (1000 * 60),
+                );
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("demo").innerHTML =
+                    `${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+                const percentServed = Math.min(
+                    (timePassed / (countDownDate - startDate)) * 100,
+                    100,
+                );
+                const daysServed = Math.floor(
+                    timePassed / (1000 * 60 * 60 * 24),
+                );
+                timeServedBar.style.width = `${percentServed}%`;
+                progressPercentage.textContent = `${daysServed} days (${percentServed.toFixed(2)}%)`;
+
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "CZ is free!";
+                    timeServedBar.style.width = "100%";
+                    progressPercentage.textContent = `${totalDays} days (100%)`;
+                }
+            }
+
+            updateCountdown();
+            const x = setInterval(updateCountdown, 1000);
+
+            const themeToggle = document.getElementById("theme-toggle");
+            const html = document.documentElement;
+
+            themeToggle.addEventListener("click", () => {
+                html.classList.toggle("dark");
+                const isDark = html.classList.contains("dark");
+                themeToggle.innerHTML = isDark
+                    ? '<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd" /></svg>'
+                    : '<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" /></svg>';
+            });
+        </script>
+    </body>
+</html>
